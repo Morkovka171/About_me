@@ -130,6 +130,7 @@ body {
 /*?----HEADER--------------------------- */
 .main__block {
 	padding-top: 36px;
+	padding-bottom: 104px;
 }
 .main-block__container {
 }
@@ -144,13 +145,43 @@ body {
 	font-size: 47.3392px;
 	line-height: 59px;
 }
-.lang{
-
-}
 .main-block__text {
 	font-family: 'Gilroy-Medium';
 	font-size: 18px;
 	line-height: 22px;
 }
-.main-block__image {
+
+/*?----ABOUT--------------------------- */
+
+.about {
+	background-color: #F6F6F6;
+	padding-bottom: 107px;
+}
+.about__container {
+	
+}
+.about__body {
+	
+	padding-top: 120px;
+	text-align: center;
+}
+.about__title {
+	font-size: 34px;
+	line-height: 42px;	
+	padding-bottom: 17px;
+}
+.about__text {
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Gilroy-Medium';
+	font-size: 18px;
+	line-height: 22px;
+	margin:0 auto;
+}
+.abzac{
+	
 }
