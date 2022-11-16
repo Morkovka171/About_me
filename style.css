@@ -463,10 +463,12 @@ color: #070707;
 .contacts___link {
 }
 @media (max-width: 567.98px) {
-	.contacts__body  {
-	
-	}
 		.contacts__items {
 		gap: 30px;
+	}
+}
+@media (max-width: 414.98px) {
+	.contacts__body  {
+		align-items: stretch;
 	}
 }
