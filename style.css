@@ -352,6 +352,7 @@ body {
 }
 .portfolio__links{
 	text-align: center; 
+	padding-bottom: 100px;
 }
 .portfolio__links:not(:last-child){
 	padding-bottom: 99px;
