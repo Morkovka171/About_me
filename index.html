@@ -15,28 +15,68 @@
 
 <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="header__container">
-                <nav class="header__menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="https://morkovka171.github.io/About_me/"
-                                class="menu__link menu__link_home">Главная</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#aboutme" class="menu__link">Обо мне</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#skills" class="menu__link">Навыки</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#portfolio" class="menu__link">Портфолио</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#contacts" class="menu__link">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
+    <header class="header">
+        <div class="menu__burger">
+        <div class="header__container">
+            <button class="menu_close btn-reset" aria-label="close menu">
+                <span class="menu_close-line"></span>
+                <span class="menu_close-line"></span>
+              </button>
+              <nav class="menu_nav">
+                <ul class="menu_list">
+                  <li class="menu_item__burger"><a href="#" class="menu_link">Главная</a></li>
+                  <li class="menu_item__burger"><a href="#" class="menu_link__burger">Обо мне</a></li>
+                  <li class="menu_item__burger"><a href="#" class="menu_link__burger">Навыки</a></li>
+                  <li class="menu_item__burger"><a href="#" class="menu_link__burger">Портфолио</a></li>
+                  <li class="menu_item__burger"><a href="#" class="menu_link">Контакты</a></li>
+                </ul>
+              </nav>
+            
+            <nav class="header__menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="https://morkovka171.github.io/About_me/" class="menu__link menu__link_home">Главная</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#aboutme" class="menu__link">Обо мне</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#skills" class="menu__link">Навыки</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#portfolio" class="menu__link">Портфолио</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#contacts" class="menu__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger__header">
+            <button class="header_burger burger btn-reset" aria-label="Open menu">
+                <span class="burger_line"></span>
+                <span class="burger_line "></span>
+                <span class="burger_line"></span>
+              </button>
+            </div>
+        </div>
+    </div>
+    </header>
+    <main class="page">
+        <section class="main__block">
+            <div class="main-block__container">
+                <div class="main-block__body">
+                    <h1 class="main-block__title">
+                        Вера Сафонова
+                    </h1>
+                    <div class="main-block__text">
+                      Начинающий Front End разработчик, 25 лет, Нижний Новгород
+                    </div>
+                
+                    <div class="lang"> <img src="images/header/rueng.svg" alt=""></div>
+                </div>
+                <div class="main-block__image">
+                    <img src="images/header/iam2.jpg" alt="I am">
+                </div>
             </div>
         </header>
         <main class="page">
@@ -220,6 +260,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
