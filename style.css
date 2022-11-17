@@ -222,6 +222,11 @@ body {
 		padding-bottom: 50px;
 	}
 }
+@media (min-width: 597.98px) {
+	.menu_nav{
+		display: none;
+	}
+}
 @media (max-width: 597.98px) {
 	.menu__item{
 		display: none;
