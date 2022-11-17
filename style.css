@@ -223,7 +223,7 @@ body {
 	}
 }
 @media (min-width: 597.98px) {
-	.menu_nav{
+	.burger__header{
 		display: none;
 	}
 }
